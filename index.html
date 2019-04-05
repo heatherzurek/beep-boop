@@ -1,17 +1,22 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>BEEP-BOOP!</title>
+    <title>BEEP-BOOP</title>
   </head>
   <body>
     <div class="container">
-      <form id="beep-boop">
-        <label for="numberEntry">ENTER A NUMBER:</label>
-         <input id="numberEntry" type="number">
-        <button type="submit" btn btn-secondary="button">SUBMIT</button>
+      <form id="beep">
+        <div class="form-group">
+          <label for="user-input">ENTER A NUMBER:</label>
+          <input id="numbersIn" type="number" class="form-control" name="user-input" min="1" max="250">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-info">Submit</button>
+        </div>
       </form>
       <div id="result">
 
