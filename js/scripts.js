@@ -2,25 +2,20 @@
 function beepBoop(numberInput) {
  var numberOut = [];
 
- for (var i = 0; i <=numberInput; i++) {
-   if (i.includes("0")){
-     numberOut.push("I'm sorry, Dave. I'm afraid I can't do that.");
-     }
-   }
- for (var i = 0; i <=numberInput; i++) {
-   if (i.includes("1") {}
-     numberOut.push("Boop!");
-     }
-   }
-   for (var i = numberInput; i > 0; i-=1) {
-     if (numberInput >= 1){
-       numberOut += "Beep!";
+ for (var i = 0; i <= numberInput; i++) {
+   if (i.toString().includes("1")){
+     numberOut.push(" Beep!");
+   } else if (i.toString().includes("2")) {
+       numberOut.push(" Boop!");
+   } else if (i % 3 === 0) {
+       numberOut.push(" I'm sorry, Dave. I'm afraid I can't do that.")
      } else {
+       numberOut.push(" " + i);
 
-     }
+       }
+      }
+    return numberOut;
     }
-   return numberOut;
- }
 
 //front end logic
 $(document).ready(function() {
