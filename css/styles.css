@@ -1,3 +1,9 @@
 .container {
-  margin: 25%;
+  text-align: center;
+  background-color: #8c8c8c;
+}
+
+
+body {
+  background-color: #383838;
 }
