@@ -3,7 +3,9 @@ function beepBoop(numberInput) {
  var numberOut = [];
 
 for (var i=0; i<=numberInput; i++) {
-      if (i.toString().includes("1")) {
+      if (i.toString().includes("13")) {
+        numberOut.push(" I'm sorry, Dave. I'm afraid I can't do that.");
+      } else if (i.toString().includes("1")) {
         numberOut.push(" Beep!");
       //The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 
