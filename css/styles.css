@@ -9,6 +9,10 @@ footer {
   color: #ffffff;
 }
 
+h3 {
+  background-color: #3c8484;
+}
+
 .container {
   margin-top: 15%;
   border: 6px solid #000000;
