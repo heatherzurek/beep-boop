@@ -1,12 +1,12 @@
 # _Beep Boop_
 
-#### _A web application that takes a number from a user and returns a range of numbers from 0 to the users inputted number with some exceptions._
+#### _A web application that takes a number from a user and returns a range of numbers. April 5, 2019_
 
 #### By _**Heather Zurek**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application allows the user to input a number and it will return a range of numbers from 0 to the users inputted number with some exceptions._
 
 ## Setup/Installation Requirements
 
@@ -15,16 +15,17 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _Enter numbers_
 * _Enjoy._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| The program returns a range of numbers from 0 to the users inputted number | 4 | 0, 1, 2, 3, 4 |
-| Numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 10 | Beep! |
+| Return a range of numbers from the inputted number | 5 | 0, 1, 2, 3, 4, 5 |
+| The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 13 | I'm sorry, Dave. I'm afraid I can't do that. |
+| The number 21 should be replaced with "Boop". | 21 | Boop |
+| The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 32 | I'm sorry, Dave. I'm afraid I can't do that. |
+| Numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 1 | Beep! |
 | Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 2 | Boop! |
-| Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 13 | "I'm sorry, Dave. I'm afraid I can't do that." |
+| Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | I'm sorry, Dave. I'm afraid I can't do that. | 
 
 
 ## Known Bugs
@@ -33,7 +34,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you run into any issues or have questions, ideas or concerns. Please contact me at Heather.Zurek@gmail.com_
 
 ## Technologies Used
 
