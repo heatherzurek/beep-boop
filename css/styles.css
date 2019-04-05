@@ -1,9 +1,21 @@
 .container {
-  text-align: center;
-  background-color: #8c8c8c;
+  margin-top: 15%;
+  border: 6px solid #000000;
+  background-color: #ffffff;
+  padding: 25px;
 }
 
+.btn {
+  background-color: #383838;
+  color: #ffffff;
+}
 
 body {
   background-color: #383838;
+  text-align: center;
+}
+
+footer {
+  color: #ffffff;
+
 }

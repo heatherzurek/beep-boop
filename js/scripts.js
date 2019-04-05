@@ -16,7 +16,6 @@ for (var i=0; i<=numberInput; i++) {
     return numberOut;
    }
 
-
 //front end logic
 $(document).ready(function() {
   $("form#beep").submit(function(event) {
