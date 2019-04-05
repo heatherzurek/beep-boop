@@ -5,6 +5,10 @@ function beepBoop(numberInput) {
 for (var i=0; i<=numberInput; i++) {
       if (i.toString().includes("1")) {
         numberOut.push(" Beep!");
+      // } else if (i.toString().includes("32")) {
+      //   numberOut.push(" I'm sorry Ben. I'm afraid I can't do that!");
+      } else if (i.toString().includes("21")) {
+        numberOut.push(" Booooooop");
       } else if (i.toString().includes("2")) {
         numberOut.push(" Boop!");
       } else if (i.toString().includes("3")) {
