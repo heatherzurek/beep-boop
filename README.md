@@ -1,7 +1,5 @@
 # _Beep Boop Application_
 
-##_Using Behavior Driven Development_
-
 #### _A web application that takes a number from a user and returns a range of numbers. April 5, 2019_
 
 #### By _**Heather Zurek**_
