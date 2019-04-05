@@ -1,8 +1,10 @@
-# _{Application Name}_
+# _Beep Boop_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number.
 
-#### By _**{List of contributors}**_
+_
+
+#### By _**Heather Zurek**_
 
 ## Description
 
