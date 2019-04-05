@@ -1,24 +1,15 @@
-// //back end logic
+//back end logic
 function beepBoop(numberInput) {
- var numberOut = "";
+ var numberOut = [];
 
-
-   // for (var i = numberInput; i > 0; i-=0) {
-   //   if (numberInput >= 9){
-   //     numberOut += "HELPP MEEEEE";
-   //     numberInput -= 0;
-   //     }
-   //   }
-     for (var i = numberInput; i > 0; i-=3) {
-       if (numberInput >= 3){
-         numberOut += "I'm sorry, Dave. I'm afraid I can't do that.";
-         numberInput -= 3;
-         }
-       }
- for (var i = numberInput; i > 0; i-=2) {
-   if (numberInput >= 2){
-     numberOut += "Boop!";
-     numberInput -= 2;
+ for (var i = 0; i <=numberInput; i++) {
+   if (i.includes("0")){
+     numberOut.push("I'm sorry, Dave. I'm afraid I can't do that.");
+     }
+   }
+ for (var i = 0; i <=numberInput; i++) {
+   if (i.includes("1") {}
+     numberOut.push("Boop!");
      }
    }
    for (var i = numberInput; i > 0; i-=1) {
@@ -31,11 +22,7 @@ function beepBoop(numberInput) {
    return numberOut;
  }
 
-//working logic
-// var beepBoop = function(numberInput) {
-//   return true;
-// };
-
+//front end logic
 $(document).ready(function() {
   $("form#beep").submit(function(event) {
     event.preventDefault();
