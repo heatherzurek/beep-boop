@@ -1,4 +1,6 @@
-# _Beep Boop_
+# _Beep Boop Application_
+
+##_Using Behavior Driven Development_
 
 #### _A web application that takes a number from a user and returns a range of numbers. April 5, 2019_
 
@@ -25,7 +27,7 @@ _This application allows the user to input a number and it will return a range o
 | The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 32 | I'm sorry, Dave. I'm afraid I can't do that. |
 | Numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 1 | Beep! |
 | Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 2 | Boop! |
-| Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | I'm sorry, Dave. I'm afraid I can't do that. | 
+| Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | I'm sorry, Dave. I'm afraid I can't do that. |
 
 
 ## Known Bugs
