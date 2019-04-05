@@ -4,29 +4,17 @@ function beepBoop(numberInput) {
 
 for (var i=0; i<=numberInput; i++) {
       if (i.toString().includes("13")) {
-        numberOut.push(" I'm sorry, Dave. I'm afraid I can't do that.");
+        numberOut.push(" I'm sorry, Dave. I'm afraid I can't do that."); //The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
       } else if (i.toString().includes("21")) {
-        numberOut.push(" BOOP!");
+        numberOut.push(" Boop"); //The number 21 should be replaced with "Boop".
       } else if (i.toString().includes("32")) {
-        numberOut.push(" IS THIS WORKING?!");
+        numberOut.push(" I'm sorry, Dave. I'm afraid I can't do that."); //The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
       } else if (i.toString().includes("1")) {
         numberOut.push(" Beep!");
-      //The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-
-      // } if (i.toString().includes("13")) {
-      //     numberOut.push(" I'm sorry.......");
-    } else if (i.toString().includes("21")) {
-      numberOut.push(" Boopity Booo!");
       } else if (i.toString().includes("2")) {
         numberOut.push(" Boop!");
-      //The number 21 should be replaced with "Boop".
-
-        // } if (i.toString().includes("21")) {
-        //   numberOut.push(" Booooooop");
       } else if (i.toString().includes("3")) {
-        numberOut.push(" I'm sorry Dave. I'm afraid I can't do that!");
-      //The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-
+        numberOut.push(" I'm sorry Dave. I'm afraid I can't do that.");
       }else {
         numberOut.push(' ' + i);
       }
