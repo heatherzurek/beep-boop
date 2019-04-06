@@ -14,17 +14,31 @@ a {
 }
 
 a:hover {
-  color: hotpink;
+  color: #3c8484;
+}
+
+.jumbotron {
+  background-color: #ffa84c;
+  letter-spacing: 2px;
 }
 
 .container {
   margin-top: 10%;
   background-color: #ffffff;
   padding: 25px;
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .btn {
   background-color: #3c8484;
   color: #ffffff;
+}
+
+#result {
+  padding: 20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #338587;
+  text-align: left;
 }
